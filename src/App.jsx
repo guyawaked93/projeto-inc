@@ -5,12 +5,12 @@ import Works from "./Components/Works";
 import Contact from "./components/Contact";
 
 const Container = styled.div`
-  height: 100%;
+  height: 100vh;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow-y: auto;
   scrollbar-width: none;
-  background: url("./imagens/fundo.avif");
+  background: url("./imagens/bg.jpg");
   &::-webkit-scrollbar{
     display: none;
   }

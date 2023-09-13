@@ -4,7 +4,7 @@ import Navbar from "./NavBar";
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
-  color: white;
+  color: white ;
 
 `;
 
